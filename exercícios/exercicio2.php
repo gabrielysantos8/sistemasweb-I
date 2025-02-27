@@ -4,9 +4,9 @@
 
  $raio = 10;
 
- $area = 4 * pi * pow($raio, 2);
+ $area = 4 * pi * $raio * $raio;
 
- $volume = (4/3) * pi * pow($raio, 3);
+ $volume = 4/3 * pi * $raio * $raio * $raio;
 
  echo "O valor da área é: " .$area;
  echo "<br>";
