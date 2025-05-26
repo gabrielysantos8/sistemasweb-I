@@ -39,6 +39,7 @@
             echo "Nome: " . $this->Nome . "<br>";
             echo "Preço: " . $this->Preco . "<br>";
             echo "Quantidade de Estoque: " . $this->Quantidade . "<br>";
+            echo "<hr>";
         }
     }
 
